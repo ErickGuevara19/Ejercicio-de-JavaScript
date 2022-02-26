@@ -5,57 +5,52 @@ alert("Programa que determine si una letra es consonante o volcal");
 letra =  prompt("Escriba la letra que desea evaluar");
 document.getElementById("letra").innerHTML = "La letra ingresada es : " + letra;
 
-if (letra = A){
+switch (letra) {
+    case  "A":
+      alert("ES VOCAL");
+      document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+      break;
+    case "E":
+      alert("ES VOCAL");
+      document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+      break;
+    case "I":
+      alert("ES VOCAL");
+      document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+      break;
+    case  "O":
+      alert("ES VOCAL");
+      document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+      break;
+    case "U":
+      alert("ES VOCAL");
+      document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+      break;
+      case "a" :
+        alert("ES VOCAL");
+        document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+        break;
+      case "e":
+        alert("ES VOCAL");
+        document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+        break;
+      case "i":
+        alert("ES VOCAL");
+        document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+        break;
+      case "o":
+        alert("ES VOCAL");
+        document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+        break;
+      case "u":
+        alert("ES VOCAL");
+        document.getElementById("frase").innerHTML ="La letra ingresada es: " + letra + " vocal";
+        break;
+    default:
+      alert("ES CONSONANTE");
+      document.getElementById("frase").innerHTML ="la letra ingresada es: " + letra + " consonante";
+  }
+  
 
-     alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
 
-}else if (letra = a){
-
-    alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
-
-} else if (letra = E){
-
-    alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
-
-}else if (letra = e){
-
-    alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
-
-}else if (letra = I){
-
-    alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
-
-}else if (letra = i){
-
-    alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
-
-}else if (letra = O){
-
-    alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
-
-}else if (letra = o){
-
-    alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
-
-}else if (letra = U){
-
-    alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
-
-}else if (letra = u){
-
-    alert("Es una vocal");
-    document.getElementById("frase").innerHTML = "Es una vocal";
-}else {
-
-    alert("No es una vocal");
-}
 
