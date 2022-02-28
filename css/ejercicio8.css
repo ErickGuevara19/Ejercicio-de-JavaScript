@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    min-height: 100vh;
+    background-image: url(https://www.itl.cat/pngfile/big/47-473272_shingeki-no-kyojin-wallpaper-hd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+body:before{
+    content:"";
+    width: 100%;
+    min-height: 750vh;
+    position: absolute;
+    top: 0;
+    left:0;
+    background: linear-gradient(90deg,rgb(236, 94, 94),rgb(236, 214, 87));
+    opacity: 0.7;
+    z-index:-1;
+
+}
